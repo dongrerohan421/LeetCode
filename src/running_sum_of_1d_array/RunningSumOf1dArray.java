@@ -1,7 +1,5 @@
 package running_sum_of_1d_array;
 
-import java.util.stream.IntStream;
-
 public class RunningSumOf1dArray {
     public static void main(String[] args) {
         int[] nums = { 1, 2, 3, 4 };
