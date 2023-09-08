@@ -28,3 +28,4 @@ local.properties
 *.launch
 *.iml
 .idea/
+out/
