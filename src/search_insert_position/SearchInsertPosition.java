@@ -7,16 +7,19 @@ public class SearchInsertPosition {
         int nums[] = { 1, 3, 5, 6 };
         int target = 5;
 
-        solution.searchInsertPosition(nums, target);
+        solution.searchInsertLinearScan(nums, target);
+        solution.searchInsertBinarySearch(nums, target);
 
         int nums1[] = { 1, 3, 5, 6 };
         int target1 = 2;
 
-        solution.searchInsertPosition(nums1, target1);
+        solution.searchInsertLinearScan(nums1, target1);
+        solution.searchInsertBinarySearch(nums1, target1);
 
         int nums2[] = { 1, 3, 5, 6 };
         int target2 = 7;
 
-        solution.searchInsertPosition(nums2, target2);
+        solution.searchInsertLinearScan(nums2, target2);
+        solution.searchInsertBinarySearch(nums2, target2);
     }
 }
